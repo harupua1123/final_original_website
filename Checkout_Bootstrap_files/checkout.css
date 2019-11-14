@@ -1,0 +1,17 @@
+.container {
+  max-width: 960px;
+}
+
+.lh-condensed { line-height: 1.25; }
+
+.icon img {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: pink;
+}
+
+.checkout_form {
+  font-family: VNI-Truck;
+  
+}

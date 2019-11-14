@@ -1,0 +1,102 @@
+header {
+    box-sizing: border-box;
+    background-color: paleturquoise;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+body {
+    color: #333333;
+    font-family: VNI-Truck;
+    margin: 0
+}
+
+.container {
+    background-color: paleturquoise;
+    width:400px;
+    /* ↓領域を中央ぞろえにするために左右のmarginをautoにする */
+    margin-left: auto; 
+    margin-right: auto;
+    /* ↓横に並べたい要素があったら、その親要素にプロパティを追加する */
+    display: flex;
+    /* Flexbox で縦方向に要素を中央揃えにするというプロパティ */
+    align-items: center;
+}
+
+.icon {
+    background-color: paleturquoise;
+
+}
+
+/* ↓画像の角を丸める処理 */
+.icon img {
+    border-radius: 50%;
+    /* 白い枠をつける処理 */
+    border-width: 4px;
+    border-style: solid;
+    border-color: pink;
+}
+
+.info {
+    background-color: paleturquoise;
+    margin-left: 32px;
+}
+
+.info h1 {
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+}
+
+.info p {
+    margin: 0;
+    margin-bottom:16px;
+}
+
+.info ul {
+    margin: 0;
+    padding: 0;
+    /* リスト先頭のくろまるを消す処理 */
+    list-style-type: none;
+    display: flex;
+}
+
+.info ul li {
+    margin-right: 8px;
+}
+
+.works {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ↓この不等号記号により、works の直下にあるh1に処理を施す */
+.works > h1 {
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.works > section {
+    margin-bottom: 60px;
+}
+
+.works > section > h1 {
+    font-weight: normal;
+
+}
+
+.works p {
+    line-height: 1.8;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 60px;
+    color: gray;
+}
