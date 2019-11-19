@@ -1,0 +1,4 @@
+haruka,haruka@example.com,hello
+haruka,haruka@example.com,hello
+haruka,haruka@example.cpm,helo
+カカズハルカ,harukakakazu23@gmail.com,hello
